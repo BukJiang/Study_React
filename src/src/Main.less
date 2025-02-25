@@ -1,0 +1,76 @@
+/* 全局定义的样式 */
+
+
+// 自定义
+a {
+    font-size: @font-base-md;
+    text-decoration: none;
+    line-height: 1.5;
+    color: @color-text-auxi;
+    transition: all 0.3s;
+    
+    &:hover {
+        color: @color-brand;
+        outline: 0;
+    }
+}
+
+html {
+    position: static;
+    overflow-x: hidden;
+    // 滚动条样式
+    scrollbar-width: thin;
+    scrollbar-color: unset;
+}
+
+
+/* 基础的重置样式 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+/* HTML5 元素的默认显示方式 */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+// 盒子模型
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
