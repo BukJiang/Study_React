@@ -1,2 +1,2 @@
 # Study_React
-学习React
+学习_React
